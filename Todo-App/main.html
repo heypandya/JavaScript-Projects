@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Todo App</title>
+  <style>
+    body {
+      margin-left: 50px;
+    }
+    .delete-btn {
+      border-radius: 3px;
+      background-color: orange;
+    }
+    .listItem {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    #itemInput {
+      margin-bottom:20px;
+      width: 150px;
+      height: 20px;
+    }
+    .add-item-btn {
+      width: 80px;
+      height: 25px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Todo List</h1>
+  <h2>items: </h2>
+  <input id='itemInput' type="text" placeholder="Add an item" />
+  <button class="add-item-btn" onclick="addItem()">Add Item</button>
+  <div id="items"></div>
+  <script src="index.js"></script>
+</body>
+</html>
