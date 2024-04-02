@@ -50,8 +50,8 @@ body,
 }
 .scores {
   position: absolute;
-    top: 7%;
-    left: 35%;
+  top: 7%;
+  left: 35%;
   display: flex;
   justify-content: space-between;
 }

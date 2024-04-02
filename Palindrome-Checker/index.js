@@ -13,6 +13,5 @@ function check() {
   } else {
     alert('Not today!');
   }
-
   input.value = "";
 }
