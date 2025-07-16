@@ -25,6 +25,6 @@ This projects based on Javascript community recommandation and some of it from [
  - [Digital Clock](https://github.com/pandyasio/JavaScript-Projects/tree/main/digital-clock)
 
 
-### Author
+## Author
 
-[@pandyasio](https://github.com/pandyasio)🚀
+[@pandyasio](https://github.com/pandyasio)
