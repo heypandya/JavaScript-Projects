@@ -26,4 +26,4 @@ This projects based on Javascript community recommandation and some of it from [
 
 ### Author
 
-[@pandyasio](https://github.com/pandyasio) 🚀
+[@pandyasio](https://github.com/pandyasio) 🚀🚀
