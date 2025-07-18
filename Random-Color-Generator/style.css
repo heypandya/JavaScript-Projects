@@ -3,7 +3,7 @@ body {
   font-family: cursive;
 }
 
-h1  {
+h1 {
   text-align: center;
 }
 
@@ -23,7 +23,26 @@ h1  {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  text-shadow: 2px 2px 4px rgba(0,0,0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   border: solid 2px black;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.popup-message {
+  background: #333;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  position: absolute;
+}
+
+.popup-message.hide {
+  opacity: 0;
 }
