@@ -32,7 +32,7 @@ function addTransaction(e) {
 }
 
 function updateTransactionsList() {
-  transactions.innerHTML = "";
+  transactionListEl.innerHTML = "";
 
   const sortedTransactions = [...transactions].reverse();
 
@@ -45,7 +45,7 @@ function updateTransactionsList() {
 function createTransactionElement(transaction) {
   const li = document.createElement("li");
   li.classList.add("transaction");
-  li.classList.add(transaction.amount > 0 ? "income" : "expense");
+  li.classList.add(transaction.amount > 0 ? "income" : "expenses");
 
   li.innerHTML = `
     <span>${transaction.description}</span>
@@ -91,7 +91,7 @@ function removeTransaction(id) {
   // filter out the one we wanted to delete
   transactions = transactions.filter((transaction) => transaction.id !== id);
 
-  localStorage.setItem("transcations", JSON.stringify(transactions));
+  localStorage.setItem("transactions", JSON.stringify(transactions));
 
   updateTransactionsList();
   updateSummary();
